@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    margin: 10px;
+    padding: 20px;
+  
+}
+.header_left span{
+    color: red;
+}
+.header_right nav ul{
+    display: flex;
+    gap: 20px;
+
+
+}
+.section_2 nav ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    
+
+}
+.section_2 nav ul :hover{
+    color: red;
+}
+
+.section2_cards {
+    padding: 50px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+     border: none;
+    
+  
+}
+.section2_cards img{
+    width: 286px;
+    height: 300px;
+
+}
+.section2_cards a{
+    color: #afafaf;;
+}
+
+.section_3{
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+    height: 540px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+}
+.section_3 h1{
+
+    /* padding-top: 300px;
+    padding-right: 350px; */
+    color: white;}
+
+/* .section_2 input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin
+} */
+.section_3 input{
+    padding: 10px;
+    border: none;
+}
+.subcribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subcribe button{
+    padding: 10px;
+    border: none;
+    background: orangered;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+    background-color: #fefaf3
+}
+
+.footer_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px  ;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;width: 100%;
+}
+.footer_top div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+.footer_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
